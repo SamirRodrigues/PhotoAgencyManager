@@ -3,7 +3,7 @@ package br.ufrn.imd.lp.pam.domain;
 import java.util.ArrayList;
 
 public class Client extends Contact {
-	
+
 	private ArrayList<Order> ordersPlaced;
 
 	public Client(String name, String phone) {
